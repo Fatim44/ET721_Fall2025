@@ -1,0 +1,1 @@
+The Software Development Practicum equips students with a strong programming foundation, emphasizing exploration, teamwork, and real-world application. Through coding projects and challenges, students deepen their skills in core concepts and frameworks, preparing them to solve problems and innovate in technology.
