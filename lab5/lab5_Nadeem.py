@@ -16,7 +16,7 @@ what is function:
 """
 
 # Import Python file
-from lab5_Nadeem import *
+from lab5_functions_nadeem import *
 
 # call function product()
 print("\n----- Example 1: intro function -----")
@@ -52,7 +52,6 @@ print(f"Did I pass the class? {check_pass(check_grades(grades))}")
 
 # LAB EXERCISE
 
-from functions import randnum, checknum
 
 value = randnum(1, 10)
 print("Generated number:", value)
