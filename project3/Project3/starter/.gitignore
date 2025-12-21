@@ -1,0 +1,6 @@
+**/__pycache__
+**/.pytest_cache
+**/venvvenv/
+starter.zip
+venv/
+starter.zip
