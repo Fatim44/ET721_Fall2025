@@ -1,5 +1,5 @@
 Student’s Name: Fatima Nadeem  
-Professor’s Name: Prof. H  
+Professor’s Name: Prof. H 
 Class Number: ET 721  
 Date: December 21, 2025  
 
@@ -7,26 +7,22 @@ Date: December 21, 2025
 
 ## Before and After: Results Summary
 
-Before adding unit tests to the Flask application, the project had very limited test coverage. Most of the application logic and database interactions were not tested at all. Because of this, it was hard to feel confident when making changes to the code. Even small updates could introduce bugs without being noticed right away. At this stage, understanding how different parts of the application worked required manually running the app and checking behavior by trial and error.
+Before adding unit tests, the Flask application had very little test coverage. Most features and database interactions were untested, which made it difficult to confidently modify the code. Small changes could easily cause errors that were not immediately noticeable, and much of the testing had to be done manually.
 
-After implementing unit tests using pytest, the situation improved significantly. Writing tests for the data models helped confirm that required fields were enforced correctly and that objects were being created as expected. The tests made it easier to verify functionality without manually running the application each time. Overall, the project reached a much more reliable state, with stronger confidence that core features were working properly. Multiple unit tests were added, and test coverage increased to a level appropriate for a real-world application.
+After implementing unit tests with pytest, the project became much more reliable. Tests were added to verify that models were created correctly and that required fields were enforced. This improved confidence in the application and reduced the need for manual testing. Overall, test coverage increased and the code became easier to maintain.
 
 ## Untested Code: Effects
 
-Working with untested code was difficult and time-consuming. Without tests, it was not always clear how different features were supposed to behave or what edge cases needed to be handled. Errors such as missing required database fields only appeared at runtime, which made debugging more frustrating.
-
-Manually testing the API also required extra steps, such as starting the server, sending requests, and checking responses. This process was slow and made it easy to miss potential problems. These challenges clearly showed why relying only on manual testing is not practical for larger or growing applications.
+Working with untested code made debugging harder and more time-consuming. Errors often appeared only at runtime, and understanding expected behavior required manually running the application. This showed how risky it is to rely only on manual testing.
 
 ## Benefits of Unit and API Testing
 
-Unit and API testing provided many benefits to the development process. Unit tests ensured that individual components, such as database models, behaved correctly on their own. API tests helped confirm that endpoints responded properly and handled data as expected. Together, these tests made the application more stable and easier to maintain.
-
-Another major benefit was clarity. The tests acted as documentation, showing how different parts of the application were intended to work. This made it easier to understand the code and would make future updates or collaboration much smoother.
+Unit and API tests helped ensure that individual components and endpoints behaved as expected. The tests also served as a reference for how the application should work, making the code easier to understand and update.
 
 ## Role of Continuous Integration (CI)
 
-Continuous Integration (CI) plays an important role in maintaining software quality. By automatically running tests whenever code is pushed to GitHub, CI helps catch errors early. This prevents broken code from being merged and reduces the risk of deployment issues. CI also encourages consistent testing practices and helps maintain long-term project stability.
+Continuous Integration helps maintain code quality by automatically running tests when changes are pushed to GitHub. This allows problems to be caught early and prevents broken code from being merged.
 
 ## Future Improvements
 
-In the future, more tests could be added to cover additional API endpoints and edge cases. Increasing code coverage further and integrating coverage reports directly into the CI workflow would improve visibility into test quality. Adding integration and performance tests would also help ensure the application continues to perform well as it grows.
+Future improvements could include adding more tests for edge cases and API endpoints. Increasing coverage and adding integration tests would further improve application stability.
