@@ -1,0 +1,47 @@
+/* Base Reset and Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(120deg, #f0e130, #f28f3b);
+    color: #1e1e2f;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(30, 30, 47, 0.85);
+    color: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+a {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffe66d;
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #ff6b6b;
+    background-color: #ffe66d;
+    color: #1e1e2f;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+    transform: scale(1.05);
+}
